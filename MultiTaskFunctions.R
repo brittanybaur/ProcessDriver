@@ -2,8 +2,8 @@
 #Calculate "inclusion probabilities" ie the number of times that the 
 #cis gene was selected in the multi-task LASSO model when resampling
 #the population at 90% 50 timees
-#regExpression - non-zero cis genes in GO term module
-#targExpression - non-zero trans in the GO term module
+#regExpression - non-zero (in sparse CCA) cis genes in GO term module
+#targExpression - non-zero (in sparse CCA) trans in the GO term module
 
 multiTaskResampling <- function(regExpression, targExpression) {
 
