@@ -1,4 +1,5 @@
 ProcessDriver is a tool to detect copy number cancer drivers and associated biological processes
+
 Baur and Bozdag, "ProcessDriver: A computational pipeline to identify copy number drivers and associated disrupted biological processes in cancer", Accepted to Genomics.
 
 GO Association function are in the goAssocationFunctions.R file. You will need a matrix of cis gene expression and a matrix of trans gene expression. This will associate the cis genes with biological processes through the trans genes and cluster similar go terms. It depends on topGO and GOSim, which you can obtain in bioconductor. 
