@@ -2,7 +2,7 @@ library('PMA')
 library('glmnet')
 library('topGO')
 library('org.Hs.eg.db')
-source('MultiTaskFunction.R')
+source('MultiTaskFunctions.R')
 
 # This script can be run to create the moduleTable, which is the final
 # result showing the modules and the ranking of the cis genes as drivers.
